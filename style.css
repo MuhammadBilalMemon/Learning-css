@@ -2,3 +2,15 @@
     margin: 0;
     padding: 0;
 }
+
+ul {
+    margin: 30px;
+    text-align: center;
+}
+
+li {
+    background-color: red;
+    display: inline;
+    list-style-type: none;
+    padding: 10px 10px;
+}
