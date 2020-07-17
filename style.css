@@ -1,32 +1,15 @@
 * {
-    margin: 0;
-    padding: 0;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    background-color: #333;
-}
-
-li {
-    float: left;
-    text-align: center;
-}
-
-li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-li a:hover {
-    background-color: #4CAF50;
+button {
+  margin: 10rem;
+  padding: 1rem 2rem;
+  background: none;
+  border: 0.2rem solid rgb(111, 82, 207);
+  color: #fff;
+  font-size: 1.4rem;
+  border-radius: 1rem;
+  background-color: rgb(111, 82, 207);
 }
